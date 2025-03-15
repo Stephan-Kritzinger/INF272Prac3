@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Consult";
+}
+
+<h2>Book a consultation</h2>
+<h3>Your Details</h3>
+<form class="was-validated">
+    <div class="form-check mb-3 mt-3">
+        <label for="firstName" class="form-label">First Name: </label>
+        <input type="text" class="form-control" id="firstName" placeholder="Enter First Name: " name="firstName" required/>
+        <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-check mb-3 mt-3">
+        <label for="lastName" class="form-label">Last Name: </label>
+        <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name: " name="lastName" required />
+        <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-check mb-3">
+        <label for="email" class="form-label">Email Address: </label>
+        <input type="email" class="form-control" id="email" placeholder="Enter Email Address: " name="email" required />
+        <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
